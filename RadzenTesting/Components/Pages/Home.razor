@@ -1,0 +1,67 @@
+﻿@page "/"
+@using Radzen.Blazor
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<div>    
+    <RadzenCard Variant="Variant.Outlined" class="rz-background-color-primary-light rz-shadow-0 rz-border-radius-0 rz-p-8" style="margin: 1rem calc(-1 * var(--rz-card-padding));">
+        <RadzenText TextStyle="TextStyle.Subtitle2" TagName="TagName.H3">Auto-resize TextArea</RadzenText>
+        <RadzenTextArea  
+                        placeholder="Trying to customize this text's font."                         
+                        Style="width: 100%;--rz-input-focus-border: 5px solid green;" aria-label="Auto-resize"
+                        class="disabledInputCssClass">
+            
+        </RadzenTextArea>
+    </RadzenCard>
+</div>
+
+<RadzenRow Wrap="FlexWrap.NoWrap" Gap="10px" class="rz-text-align-center rz-border-info-light">
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">1</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">2</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">3</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">4</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">5</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">6</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">7</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">8</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">9</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">10</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">11</RadzenColumn>
+    <RadzenColumn class="rz-background-color-danger-lighter rz-color-on-danger-lighter">12</RadzenColumn>
+</RadzenRow>
+<RadzenRow Gap="10px" class="rz-text-align-center rz-border-info-light">
+    <RadzenColumn class="rz-background-color-info-lighter rz-color-on-info-lighter rz-p-5">
+        Column 1 of 3
+    </RadzenColumn>
+    <RadzenColumn class="rz-background-color-info-lighter rz-color-on-info-lighter rz-p-5">
+        Column 2 of 3
+    </RadzenColumn>
+    <RadzenColumn class="rz-background-color-info-lighter rz-color-on-info-lighter rz-p-5">
+        Column 3 of 3
+    </RadzenColumn>
+</RadzenRow>
+
+@* 
+    https://stackoverflow.com/questions/60898641/css-selector-with-deep-level
+*@
+
+<div class="myclass">
+    <div class="row">Level 1 - Row 1</div>
+    <div class="row">
+        Level 1 - Row 2
+        <div class="row">Level 2 - Row 1</div>
+        <div class="row">Level 2 - Row 2</div>
+    </div>
+    <div class="row">Level 1 - Row 3</div>
+    <div class="row">Level 1 - Row 4
+        <div class="row">Level 2 - Row 1 - B</div>
+        <div class="row">Level 2 - Row 2 - B</div>
+        <div class="row">Level 2 - Row 3 - B
+            <div class="row">Level 3 - Row 1 - C</div>
+            <div class="row">Level 3 - Row 2 - C</div>
+            <div class="disabledInputBackgroundColor">Level 3 - Row 3 - C</div>
+        </div>
+    </div>
+</div>

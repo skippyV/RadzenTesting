@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadzenTesting", "RadzenTesting\RadzenTesting.csproj", "{A49D3D00-E9A7-4E8A-909A-9349401ED35A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49D3D00-E9A7-4E8A-909A-9349401ED35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D3D00-E9A7-4E8A-909A-9349401ED35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D3D00-E9A7-4E8A-909A-9349401ED35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D3D00-E9A7-4E8A-909A-9349401ED35A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19187B70-FF89-4BD6-B957-2445233D598E}
+	EndGlobalSection
+EndGlobal

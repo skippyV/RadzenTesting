@@ -1,0 +1,17 @@
+﻿::deep > .rz-textarea {
+    color: darkgreen !important; /* Use !important if needed for specificity */
+    /* Add other styles like font-weight, text-decoration, etc. */
+}
+
+::deep .disabledInputCssClass {
+    background-color: black;
+    color:white;
+}
+
+.myclass > .row {
+    background-color: green;
+}
+
+.myclass > .row .row {
+    background-color: red;
+}
