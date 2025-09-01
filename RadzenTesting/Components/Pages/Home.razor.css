@@ -4,8 +4,13 @@
 }
 
 ::deep .disabledInputCssClass {
-    background-color: black;
-    color:white;
+    /*background-color: black;
+    color: white;*/
+    --rz-input-disabled-background-color: black;
+    --rz-input-disabled-color: white;
+    --rz-input-disabled-font-size: 40px;
+    --rz-input-font-size: 40px; /* when Disabled is not set */
+    /*--rz-input-disabled-placeholder-color: darkred;*/
 }
 
 .myclass > .row {
